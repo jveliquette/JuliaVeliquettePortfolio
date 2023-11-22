@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <script src="https://kit.fontawesome.com/af92b6bf29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"> Julia Veliquette </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo"> Julia Veliquette </div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profilepic.svg" alt="Julia Veliquette Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">JULIA VELIQUETTE</h1>
+            <p class="section__text__p2">Software Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" type="button" onclick="window.open('./assets/resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" type="button" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <i class="fa-brands fa-github fa-fade" onclick="location.href='https://github.com/jveliquette'"></i>
+                <i class="fa-brands fa-linkedin-in fa-fade" onclick="location.href= 'https://www.linkedin.com/in/julia-veliquette-379255289'"></i>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down" onclick="location.href='./#about'"></i>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/about-pic.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <i class="fa-solid fa-certificate"></i>
+                        <h3>Experience</h3>
+                        <p>Firefighter and Software Developer with experience in JavaScript, TypeScript, Node, CSS, and HTML.</p>
+                    </div>
+                    <div class="details-container">
+                        <i class="fa-solid fa-user-group"></i>
+                        <h3>Education</h3>
+                        <p>Attended online Hack Reactor Part-Time Program. <br> Background in fire/rescue, public safety, and advanced emergency medical technician training.</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I have a passion for all things design, including digital art. I am a detail oriented and technical thinker with a knack for problem solving.</p>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down" onclick="location.href='./#experience'"></i>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> HTML</i>
+                                <h3>Basic</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> CSS</i>
+                                <h3>Basic</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> JavaScript</i>
+                                <h3>Basic</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> TypeScript</i>
+                                <h3>Basic</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> Node JS</i>
+                                <h3>Basic</h3>
+                             </div>
+                        </article>
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> Git</i>
+                                <h3>Basic</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down" onclick="location.href='./#projects'"></i>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-angles-down" onclick="location.href='./#contact'"></i>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <i class="fa-solid fa-envelope icon contact-icon"></i>
+                <p><a href="mailto:juliaveliquette@yahoo.com">juliaveliquette@yahoo.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <i class="fa-brands fa-linkedin-in"></i>
+                <p><a href="www.linkedin.com/in/julia-veliquette-379255289">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &p#169 2023 Julia Veliquette. All Rights Reserved. </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
