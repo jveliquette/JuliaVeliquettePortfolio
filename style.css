@@ -45,13 +45,13 @@ nav {
     font-size: 1.5rem;
 }
 
-a {
+.nav-links a {
     color: white;
     text-decoration: none;
     position: relative;
 }
 
-a::after {
+.nav-links a::after {
 content: '';
     width: 0;
     height: 3px;
@@ -62,7 +62,7 @@ content: '';
     transition: 0.5s;
 }
 
-a:hover::after {
+.nav-links a:hover::after {
     width: 100%;
 }
 
@@ -108,8 +108,8 @@ a:hover::after {
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: #945D5D;
-    opacity: 75%;
+    background-color: black;
+    opacity: 100%;
     width: fit-content;
     max-height: 0;
     overflow: hidden;
@@ -118,11 +118,11 @@ a:hover::after {
 
 .menu-links a {
     display: block;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    justify-content: space-between;
     color: white;
-    text-decoration: none;
     transition: all 0.3s ease-in-out;
 }
 
@@ -131,7 +131,7 @@ a:hover::after {
 }
 
 .menu-links.open {
-    max-height: 300px;
+    max-height: 1500px;
 }
 
 .hamburger-icon.open span:first-child {
@@ -156,6 +156,16 @@ a:hover::after {
 
 .hamburger-icon span:first-child {
     transform: none;
+}
+
+.menu-links a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu-links a:hover {
+    color: #CBB2B2;
 }
 
 /* SECTIONS */
@@ -459,6 +469,27 @@ article {
 
 .contact-info-container p {
     font-size: larger;
+}
+
+.contact-info-container a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.contact-info-container a::after {
+content: '';
+    width: 0;
+    height: 3px;
+    background: #CBB2B2;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.contact-info-container a:hover::after {
+    width: 100%;
 }
 
 /* FOOTER SECTION */
