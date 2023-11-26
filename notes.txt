@@ -1,0 +1,6 @@
+Need to add:
+ - projects into each individual project spot (project1, project2. project3)
+    - links to github repo and live demo for all
+ - update resume as I go, and make my about me pararaphs better
+ - update LinkedIn
+ - contribute to other people's projects on github
