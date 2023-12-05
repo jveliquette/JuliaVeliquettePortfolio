@@ -357,6 +357,10 @@ section {
     margin: auto 0;
 }
 
+.text-container p {
+    color: #CBB2B2;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -490,6 +494,25 @@ content: '';
 
 .contact-info-container a:hover::after {
     width: 100%;
+}
+
+/* PHOTO ROW */
+.photo-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    gap: 2rem;
+    margin-top: -20px;
+}
+
+.photo-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2rem;
+    max-width: 450px;
 }
 
 /* FOOTER SECTION */

@@ -45,6 +45,14 @@
     .about-containers {
         margin-top: 0;
     }
+
+    #contact {
+        margin-top: 2rem;
+    }
+    .photo-row {
+        max-width: 1200px;
+        margin: 0 auto; /* Center the row within its container */
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -99,5 +107,10 @@
     .btn-color-2 {
         font: black;
         text-decoration: none;
+    }
+    .photo-container img {
+        max-width: 300px;
+        margin-bottom: 2rem;
+        margin-top: 2rem;
     }
 }
