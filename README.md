@@ -4,7 +4,7 @@
 Welcome to the source code of my personal portfolio website! This project showcases my skills, projects, and experiences as a software developer. Feel free to explore and learn more about me.
 
 ## Demo
-You can visit the live site at https://jveliquette.github.io/JuliaVeliquettePortfolio/
+You can visit the live site at https://juliaveliquette.netlify.app
 
 ## Features
 - **Responsive Design:** The portfolio is designed to be accessible and user-friendly across various devices and screen sizes.
@@ -20,6 +20,6 @@ You can visit the live site at https://jveliquette.github.io/JuliaVeliquettePort
 ## Contact
 - **Email:** juliaveliquette@yahoo.com
 - **LinkedIn:** https://www.linkedin.com/in/julia-veliquette-379255289/
-- **Portfolio:** https://jveliquette.github.io/JuliaVeliquettePortfolio/
+- **Portfolio:** https://juliaveliquette.netlify.app
 
 Feel free to reach out if you have any questions or just want to connect!
