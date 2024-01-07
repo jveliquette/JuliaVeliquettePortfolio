@@ -4,7 +4,7 @@
 Welcome to the source code of my personal portfolio website! This project showcases my skills, projects, and experiences as a software developer. Feel free to explore and learn more about me.
 
 ## Demo
-You can visit the live site at https://juliaveliquette.netlify.app.
+You can visit the live site at https://jveliquette.github.io/JuliaVeliquettePortfolio/
 
 ## Features
 - **Responsive Design:** The portfolio is designed to be accessible and user-friendly across various devices and screen sizes.
