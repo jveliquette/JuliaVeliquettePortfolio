@@ -20,6 +20,6 @@ You can visit the live site at https://jveliquette.github.io/JuliaVeliquettePort
 ## Contact
 - **Email:** juliaveliquette@yahoo.com
 - **LinkedIn:** https://www.linkedin.com/in/julia-veliquette-379255289/
-- **Portfolio:** https://juliaveliquette.netlify.app
+- **Portfolio:** https://jveliquette.github.io/JuliaVeliquettePortfolio/
 
 Feel free to reach out if you have any questions or just want to connect!
