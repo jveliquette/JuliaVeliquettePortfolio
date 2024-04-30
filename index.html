@@ -10,7 +10,7 @@
     <script src="https://kit.fontawesome.com/af92b6bf29.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav id="desktop-nav">
+    <nav id="desktop-nav" aria-label="Main navigation">
         <div class="logo"> Julia Veliquette </div>
         <div>
             <ul class="nav-links">
@@ -21,13 +21,13 @@
             </ul>
         </div>
     </nav>
-    <nav id="hamburger-nav">
+    <nav id="hamburger-nav" aria-label="Mobile navigation">
         <div class="logo"> Julia Veliquette </div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div>
                 <ul class="menu-links">
@@ -70,7 +70,7 @@
                     <div class="details-container">
                         <i class="fa-solid fa-certificate"></i>
                         <h3>Experience</h3>
-                        <p>Firefighter and Software Developer with experience in JavaScript, TypeScript, Node, CSS, and HTML.</p>
+                        <p>Firefighter and Software Developer with experience in JavaScript, TypeScript, React, Node, CSS, HTML, and API integration.</p>
                     </div>
                     <div class="details-container">
                         <i class="fa-solid fa-user-group"></i>
@@ -89,8 +89,8 @@
         <p class="section__text__p1">Explore My</p>
         <h1 class="title">Experience</h1>
         <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container">
+            <div class="experience-containers">
+                <div class="experience-container">
                     <h2 class="experience-sub-title">Frontend Development</h2>
                     <div class="article-container">
                         <article>
@@ -117,9 +117,15 @@
                                 <h3>Basic</h3>
                             </div>
                         </article>
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> React</i>
+                                <h3>Basic</h3>
+                            </div>
+                        </article>
                     </div>
                 </div>
-                <div class="details-container">
+                <div class="experience-container">
                     <h2 class="experience-sub-title">Backend Development</h2>
                     <div class="article-container">
                         <article>
@@ -134,6 +140,12 @@
                                 <h3>Basic</h3>
                             </div>
                         </article>
+                        <article>
+                            <div>
+                                <i class="fa-solid fa-circle-check"> API</i>
+                                <h3>Basic</h3>
+                            </div>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -143,37 +155,63 @@
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class="title">Projects</h1>
-        <div class="experience-details-container">
-            <div class="about-containers">
-                <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="assets/project-1.png" alt="Project 1" class="project-img">
+
+        <div class="projects-details-container">
+            <div class="projects-containers">
+
+                <div class="projects-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-1.png" alt="Project 1" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/coolBeerwerks'">Github</button>
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://www.cbwbeer.com'">Live Site</button>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/JustJDesigns'">Github</button>
-                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://justjdesigns.netlify.app'">Live Demo</button>
+
+                <div class="projects-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-2.png" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/GitBuddies/app'">Github</button>
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="">Live Demo Unavailable</button>
+                    </div>
                 </div>
+
+                <div class="projects-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-3.png" alt="Project 3" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/JustJDesigns'">Github</button>
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://justjdesigns.netlify.app'">Live Demo</button>
+                    </div>
                 </div>
-                <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="assets/project-2.png" alt="Project 2" class="project-img">
+
+                <div class="projects-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-4.png" alt="Project 4" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Four</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/RecipeEpic'">Github</button>
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://recipe-epic.netlify.app'">Live Demo</button>
+                    </div>
                 </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/RecipeEpic'">Github</button>
-                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://recipe-epic.netlify.app'">Live Demo</button>
-                </div>
-                </div>
-                <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="assets/project-3.png" alt="Project 3" class="project-img">
-                </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/InnoNote'">Github</button>
-                    <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://innonote-todo.netlify.app'">Live Demo</button>
-                </div>
+
+                <div class="projects-container color-container">
+                    <div class="article-container">
+                        <img src="assets/project-5.png" alt="Project 5" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Five</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://github.com/jveliquette/InnoNote'">Github</button>
+                        <button class="btn btn-color-2 project-btn" type="button" onclick="location.href='https://innonote-todo.netlify.app'">Live Demo</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -185,7 +223,7 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <i class="fa-solid fa-envelope icon contact-icon"></i>
-                <p><a href="mailto:juliaveliquette@yahoo.com">juliaveliquette@yahoo.com</a></p>
+                <p><a href="mailto:juliaveliquette@yahoo.com">juliaveliquette@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <i class="fa-brands fa-linkedin-in"></i>
@@ -205,7 +243,7 @@
         </div>
     </div>
     <footer>
-        <nav>
+        <nav aria-label="Footer navigation">
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>

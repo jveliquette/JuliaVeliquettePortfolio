@@ -3,10 +3,6 @@
         height: 83vh;
         margin-bottom: 6rem;
     }
-    .about-containers {
-        flex-wrap: wrap;
-    }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -42,7 +38,7 @@
         height: 275px;
         margin: 0 auto 2rem;
     }
-    .about-containers {
+    .about-containers, .experience-container {
         margin-top: 0;
     }
 
@@ -70,7 +66,7 @@
         height: fit-content;
         margin-bottom: 2rem;
     }
-    .about-containers, .contact-info-upper-container, .btn-container {
+    .about-containers, .contact-info-upper-container, .btn-container, .experience-containers, .contact-info-container {
         flex-wrap: wrap;
     }
     .contact-info-container {
