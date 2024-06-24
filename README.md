@@ -18,7 +18,7 @@ You can visit the live site at https://juliaveliquette.netlify.app
 - JavaScript
 
 ## Contact
-- **Email:** juliaveliquette@yahoo.com
+- **Email:** juliaveliquette@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/julia-veliquette-379255289/
 - **Portfolio:** https://juliaveliquette.netlify.app
 
